@@ -1,6 +1,6 @@
 # RBF_networks
 
-RBF networks have inpug neurons, one hidden layer where each node is an RBF (Radial Basis Function) and one output neuron. We use Gaussians to model the receptive fields for neurons, so that nodes will fire strongly if the input is close to them, less strongly if the input is further away and not at all if it is even further away.  
+RBF networks have inpug neurons, one hidden layer where each node is an RBF (Radial Basis Function) and one output neuron. We use Gaussians to model the receptive fields for neurons, so that nodes will fire strongly if the input is close to them, less strongly if the input is further away and not at all if it is even further away. The main idea is to map a input space in a higher dimension output space, but this higher dimension should be less than the number of training samples (if not overspecialization).  
 <p align="center">
 <img src="https://www.dtreg.com/uploaded/pageimg/RBFarchitecture.gif"/>
 </p>
