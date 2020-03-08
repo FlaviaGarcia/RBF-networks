@@ -114,9 +114,10 @@ if __name__ == "__main__":
     parser.add_argument('--plot_train_results', type=bool, default=False)
     parser.add_argument('--plot_test_results', type=bool, default=True)
     parser.add_argument('--verbose', type=int, default=1)
+    parser.add_argument('--add_noise', type=bool, default=False)
 
     args=parser.parse_args()
         
-    RBF_NN_batch_learning(args.n_nodes, args.learning_rate, args.sin_or_square, args.sigma_RBF_nodes, args.batch_or_online_learning, args.use_CL, args.n_epochs_online_learning, args.n_epochs_CL, args.plot_train_results, args.plot_test_results, args.verbose)
+    RBF_NN_batch_learning(args.n_nodes, args.learning_rate, args.sin_or_square, args.sigma_RBF_nodes, args.batch_or_online_learning, args.use_CL, args.n_epochs_online_learning, args.n_epochs_CL, args.plot_train_results, args.plot_test_results, args.verbose, args.add_noise)
 
 
