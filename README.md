@@ -16,6 +16,7 @@ In order to study the performance of the NN we can run RBF_NN_implementation.py.
 
 ## Run code 
 In order to run RBF_NN_implementation.py we have to specify the parameters of the algorithm in the arguments:
+
   --n_nodes N_NODES
   --learning_rate LEARNING_RATE
   --sin_or_square SIN_OR_SQUARE
