@@ -9,7 +9,7 @@ import math
 import numpy as np 
 import matplotlib.pyplot as plt
 from RBF_functions import RadialBasisFunctions
-import argparse, sys
+import argparse
 
 
 def RBF_NN_batch_learning(n_nodes, learning_rate, sin_or_square, sigma_RBF_nodes, batch_or_online_learning, use_CL, n_epochs_online_learning=0, n_epochs_CL=0, plot_train_results=False, plot_test_results=True, verbose=True, add_noise = False, train_range=[0,2*math.pi], test_range=[0.05,2*math.pi+0.05], step=0.1):
