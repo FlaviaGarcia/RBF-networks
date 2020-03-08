@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 class RadialBasisFunctions():
     
-    def __init__(self, n_nodes, sigma_RBF_nodes, learning_rate=0.01):
+    def __init__(self, n_nodes, sigma_RBF_nodes, learning_rate):
         self.n_nodes = n_nodes
         self.learning_rate = learning_rate
         self.sigma_RBF_nodes = sigma_RBF_nodes
