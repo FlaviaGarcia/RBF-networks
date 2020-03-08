@@ -1,0 +1,8 @@
+approximate functions sin(2x) and square(2x) [0, 2pi]
+
+1.Fix RBF parameters with values we think they will work and train supervised part of the network 
+CONCLUSIONS: batch learning will always make more accurate predictions than online learning 
+- Furthermore, with more number of epochs, the delta learning performs better.
+- Differnet values of sigma in RBF nodes and different n_nodes, learning methods, noisy data 
+- CL or samrtly initialized RBF mus based on training data 
+- avoid dead units
