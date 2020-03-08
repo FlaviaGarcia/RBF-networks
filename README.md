@@ -1,9 +1,9 @@
 # RBF_networks
 
 RBF networks have inpug neurons, one hidden layer where each node is an RBF (Radial Basis Function) and one output neuron. We use Gaussians to model the receptive fields for neurons, so that nodes will fire strongly if the input is close to them, less strongly if the input is further away and not at all if it is even further away.  
-
-<div style="text-align:center"><img src="https://www.dtreg.com/uploaded/pageimg/RBFarchitecture.gif"/></div>
-
+<p align="center">
+<img src="https://www.dtreg.com/uploaded/pageimg/RBFarchitecture.gif"/>
+</p>
 
 The output neuron acts like a normal perceptron. Therefore, the training of the network can be divided in two stages: 
 1. Training of RBF positions (mu of each RBF node). Unsupervised learning where we will use <b>Competitive Learning</b>. 
@@ -48,8 +48,9 @@ In order to run RBF_NN_implementation.py we have to specify the parameters of th
 `python RBF_NN_implementation.py --n_nodes 11 --learning_rate=0.01 --sin_or_square sin --sigma_RBF_nodes 1 --batch_or_online_learning batch --use_CL False`
 
 Output:
-
-![alt text](http://output_example/output.png)
+<p align="center">
+<img src="https://github.com/FlaviaGarcia/RBF_networks/blob/master/output_example/output.png" width="400" height="300" align="center" />
+</p>
 
 ## Conclusions
 - Batch learning will always make more accurate predictions than online learning.
