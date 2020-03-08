@@ -42,7 +42,7 @@ In order to run RBF_NN_implementation.py we have to specify the parameters of th
   `--add_noise ADD_NOISE`
 
 ### Example: 
-`python RBF_NN_implementation.py --n_nodes 11 --learning_rate=0.01 --sin_or_square sin --sigma_RBF_nodes 1 --batch_or_online_learning batch --use_CL False
+`python RBF_NN_implementation.py --n_nodes 11 --learning_rate=0.01 --sin_or_square sin --sigma_RBF_nodes 1 --batch_or_online_learning batch --use_CL False`
 
 Output:
 
